@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+#lefty{
+	width:820px;
+	padding:5;
+	float:left;
+	margin: 10px 60px auto 60px;
+	height: auto;
+}
+#lefty h2{
+font:bold 24px/16px Arial, Helvetica, sans-serif;
+	color:#497C00;
+	background-color:#fff;
+	margin:0 0 12px 0;
+	display:block;	
+}
+#lefty #leftcom{
+	width:800px;
+	padding:3px;
+	background:white;
+	margin:2px;
+	margin-bottom: 50px;
+	}
+#leftcom #leftBottomcomment{
+	width:inherit;
+	height:auto;
+	padding:inherit !important;
+	border: 1px solid green;
+	box-shadow:1px 1px 1px greenyellow;
+
+
+	border radius:3px;
+	margin: 0px 30px 0px 30px;
+	}
+#leftBottomcomment #page_a_links{
+	color:green;
+	background:floralwhite;
+	border radius:3px;
+	border:1px solid green;
+	width:60px;
+	height:50px;
+	padding:2px;
+	margin:4px 25px 10px 5px;
+	font-size:14px;
+	text-align:center;
+	
+	}
+#leftBottomcomment #page_links{
+	color:green;
+	background:floralwhite;
+	border radius:3px;
+	border:1px solid green;
+	width:60px;
+	height:50px;
+	padding:2px;
+	margin:4px 25px 10px 5px;
+	font-size:14px;
+	text-align:center;
+	}
+#leftBottomcomment #page_links:hover{
+	box-shadow:1px 1px 1px greenyellow;
+	}
+#leftBottomcomment .news{
+	width:790px;
+	height:auto;
+	padding:1px !important;
+	border: 1px solid greenyellow;
+	border radius:3px;
+	}
+/*--------------------*/
+#leftBottomcomment #news{
+	width:790px;
+	height:auto;
+	padding:1px !important;
+	border: 1px solid greenyellow;
+	border radius:3px;
+	}
+
+/*--------------------*/
+#leftBottomcomment .news .boldtxt{
+	font-family:arial;
+	font-size:16px;
+	padding:1px;
+	color:cornflowerblue;
+	width:650px;
+	height:auto;
+	font-style:bold;
+	}
+#leftBottomcomment .news .finetxt{
+	font-family:CordiaUPC;
+	font-size:18px;
+	padding:3px;
+	color:darkgreen;
+	width:700px;
+	height:auto;
+	margin-left:5px;
+	}
+#leftBottomcomment .news .comment{
+	font-size:12px;
+	color:darkseagreen;
+	}
+#leftBottomcomment .blink a{
+	font-size:12px;
+	color:crimson;
+	}
+#leftcom #leftBottomcomment #add{
+	width:700px;
+	height:300px;
+	margin:5px -10px 35px 100px;
+	}
+#add #form1{
+	width:500px;
+	margin:5px 100px auto 100px;
+	padding:3px;
+	clear: both;
+	text-align:center;
+	}
+#form1 .label{
+	clear:left;
+	float:left;
+	text-align:right !important;
+	margin:2px 60px 2px auto;
+	font-family:Browallia New;
+	font-size:13px;
+	color:green;
+	}
+	
+#form1 input{
+	clear:right;
+	float:right;
+	margin:2px 50px 2px 120px;
+	color:green;
+	border:1px solid green;
+	border radius:3px;
+	width:390px;
+	height:45px;
+	padding:6px;
+	}
+#form1 textarea{
+	clear:right;
+	float:right;
+	margin:2px 80px 2px auto;
+	color:green;
+	border:1px solid green;
+	border radius:3px;
+	padding:6px;
+	}
+#form2 input{
+	width:70px;
+	height:30px;
+	border:1px solid green;
+	border radius:3px;
+	background:moccasin;
+	margin:30px 50px 5px 350px;
+	} 
+#form2 input:hover{
+	width:70px;
+	height:30px;
+	border:1px solid green;
+	border radius:3px;
+	background:transparent;
+	box-shadow:1px greenyellow;
+	} 
+#leftBottomcomment .back{
+	font-size:12px;
+	color:crimson;
+	margin:5x 50px 5px 750px;
+	}

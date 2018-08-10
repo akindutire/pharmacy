@@ -1,0 +1,10 @@
+<?php
+$l='localhost';
+$u='root';
+$p='';
+$db='hosp';
+$link=@mysql_connect($l,$u,$p);
+if($link){	
+@(mysql_select_db($db));
+	}
+?>
